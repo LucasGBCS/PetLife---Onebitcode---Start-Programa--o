@@ -1,1 +1,7 @@
-alert("ola World")
+let elementosDuvida = document.querySelectorAll('.duvida')
+
+elementosDuvida.forEach(function(duvida){
+    duvida.addEventListener('click', function(){
+        
+    })
+})
